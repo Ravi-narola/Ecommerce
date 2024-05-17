@@ -1,0 +1,18 @@
+a{
+    color: black;
+    text-decoration: none !important;
+
+}
+a.active{
+    background-color: aqua;
+    font-style: italic;
+}
+img{
+    height: 60px;
+}
+.navdrop{
+    position: absolute !important;
+    /* top: 20px; */
+    right: 100px;
+    font-size: 22px;
+}
