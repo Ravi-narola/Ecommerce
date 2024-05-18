@@ -46,7 +46,7 @@ console.log(data);
             {
               data?.isLoggedIn ?      
             (
-              <NavDropdown title={`${data?.currentUserName}`} id="basic-nav-dropdown"  className={`${navstyle.navdrop}`}>
+              <NavDropdown title={`${data?.currentUserName}`} id="basic-nav-dropdown"  className={`${navstyle.navdrop} my-3 mx-4 my-sm-0 mx-sm-4`}>
                 <NavDropdown.Item href="#action/3.1" className='bg-transparent'>
                         <Button variant="success" className='w-100' onClick={()=>logout()}>LOGOUT</Button> 
                 </NavDropdown.Item>

@@ -10,6 +10,7 @@
 .form_bg_register{
     background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(15px);
+    width: 25% !important;
 }
 /* Register Form Style */
 
@@ -27,6 +28,7 @@
 .form_bg_login{
     background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(15px);
+    width: 25% !important;
 }
 /* Login Form Style */
 
@@ -45,10 +47,22 @@
     .dashboard_bg{
         padding: 5px 15px;
     }
+    .form_bg_login{
+        width: 100% !important;
+    }
+    .form_bg_register{
+        width: 100% !important;
+    }
 }
 @media (min-width:426px) and (max-width:768px) {
     .dashboard_bg{
         padding: 10px 40px;
+    }
+    .form_bg_login{
+        width: 60% !important;
+    }
+    .form_bg_register{
+        width: 60% !important;
     }
 }
 
@@ -56,11 +70,23 @@
     .dashboard_bg{
         padding: 10px 120px;
     }
+    .form_bg_login{
+        width: 50% !important;
+    }
+    .form_bg_register{
+        width: 50% !important;
+    }
 }
 
 
 @media (min-width:1025px) and (max-width:1400px) {
     .dashboard_bg{ 
         padding: 15px 150px;
+    }
+     .form_bg_login{
+        width: 30% !important;
+    }
+    .form_bg_register{
+        width: 30% !important;
     }
 }

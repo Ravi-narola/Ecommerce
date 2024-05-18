@@ -106,7 +106,7 @@ setTimeout(() => {
         }}
       >
 
-        <div className='form_bg_register rounded-4 border border-2 border-light text-white w-25 m-auto overflow-hidden'>
+        <div className='form_bg_register rounded-4 border border-2 border-light text-white m-auto overflow-hidden'>
 
           <Form>
             

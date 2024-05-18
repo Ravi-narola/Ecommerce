@@ -115,7 +115,7 @@ currentUserId:responseBody[0]?.id
         }}
       >
 
-        <div className='form_bg_login rounded-4 border border-2 border-light text-white w-25 m-auto overflow-hidden'>
+        <div className='form_bg_login rounded-4 border border-2 border-light text-white m-auto overflow-hidden'>
           <Form>
 
           <h3 className='text-center py-2 text-bg-dark text-uppercase border-bottom border-2 '>Login</h3>
